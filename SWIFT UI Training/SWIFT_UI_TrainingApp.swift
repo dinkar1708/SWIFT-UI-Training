@@ -12,7 +12,7 @@ struct SWIFT_UI_TrainingApp: App {
     var body: some Scene {
         // 'WindowGroup' is only available in iOS 14.0 or newer
         WindowGroup {
-            SystemEnvironmentExampleView()
+            MVVMExampleView()
         }
     }
 }
